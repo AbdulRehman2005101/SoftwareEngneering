@@ -5,6 +5,9 @@
 # Node modules (ignore all, even inside subfolders)
 **/node_modules/
 
+private
+private.pub
+
 # Environment files
 .env
 .env.*
