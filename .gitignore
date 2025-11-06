@@ -1,0 +1,51 @@
+# =========================
+# Node.js & Express Projects
+# =========================
+
+# Node modules (ignore all, even inside subfolders)
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example   # (optional: keep example env file if you have one)
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+
+# Build directories
+dist/
+build/
+coverage/
+.out/
+.next/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Local config
+*.local
+*.config.js
+
+# Lock files (optional if you don’t want to include them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
